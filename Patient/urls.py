@@ -3,5 +3,5 @@ from django.urls import path
 from Patient.views import PatientListView
 
 urlpatterns = [
-    path('', PatientListView.as_view(), name='patient'),
+    path('<int:pk>/', PatientListView.as_view(), name='patient'),
 ]
