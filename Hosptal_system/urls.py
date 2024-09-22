@@ -22,6 +22,6 @@ from Patient.views import PatientListView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('patient/', include('Patient.urls')),
+    path('', include('Patient.urls')),
 
 ]
