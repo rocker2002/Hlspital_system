@@ -1,9 +1,71 @@
+# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
+*$py.class
 
-.venv/
+# Django specific files
+*.log
+*.pot
+*.pyc
+*.pyo
+*.db
+*.sqlite3
+
+# Local environment files
+.env
+*.env
+.env.*
+
+# Virtual environment
 venv/
-env/
-env.bak/
+.venv/
 
-local_settings.py
+# PyCharm specific files
+.idea/
+
+# VS Code specific files
+.vscode/
+
+# macOS specific files
+.DS_Store
+
+# System specific files
+Thumbs.db
+
+# Migrations
+*/migrations/*
+
+# Ignore test databases
+test*.sqlite3
+
+# Coverage reports
+htmlcov/
+.coverage
+.tox/
+.nox/
+
+# Python egg files
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+
+# Static files
+staticfiles/
+static/
+media/
+
+# Celery beat schedule file
+celerybeat-schedule
+
+# Docker specific files
+docker-compose.override.yml
+*.pid
